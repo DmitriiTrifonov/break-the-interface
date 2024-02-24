@@ -26,7 +26,7 @@ function love.load()
     dataTimer.valueSize = 60
 
     timer = {}
-    timer.val = 180
+    timer.val = 120
 
     timerNpc = Enemy:new(love.graphics.getWidth() / 2,
      (dataTimer.titleSize + dataTimer.valueSize) / 2, 80, dataTimer, timer)
